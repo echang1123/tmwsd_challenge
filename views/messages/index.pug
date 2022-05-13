@@ -1,1 +1,26 @@
-h1 TMWSD is #{adjective}!
+
+head
+  style
+    include styles.css
+body
+  div(class='container')
+    h1.formTitle Message Form
+    form(action='/', method='POST')
+      input.textInput(type='text' name='title' placeholder='Title of Message...')
+      br
+      br
+      textarea.textInput(
+        style={height: '200', width: '200'}
+        name='message'
+        onfocus="if(this.value==this.defaultValue)this.value=''" 
+        onblur="if(this.value=='')this.value=this.defaultValue") Write your message here...
+      br
+      br
+      input.btn(type='submit' value='Create New Message')
+
+    if list
+      each item in list
+        div.listItemContainer
+          a.listItem(href=`/${item.id}`) #{item.title}
+
+

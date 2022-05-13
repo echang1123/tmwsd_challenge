@@ -1,0 +1,49 @@
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.listItemContainer {
+  margin-bottom: 8px;
+}
+.listItem {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.formTitle {
+  background-color: #4CAF50; /* Green */
+  border-radius: 6px;
+  color: white;
+  padding: 5px 10px;
+  font-family: Arial;
+  margin-left: 34%;
+  margin-right: 34%;
+
+}
+
+.textInput {
+  border-radius: 7px;
+  border: 1px solid silver;
+  padding: 8px;
+}
+
+.message {
+  text-overflow: clip;
+  line-height: 1.8;
+  font-family: Arial;
+}
